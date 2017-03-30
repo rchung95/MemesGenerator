@@ -1,4 +1,4 @@
-var memes = ["barber.png", "bst.jpeg", "cage.jpg", "cookie.png", "java.jpg", "jesse.jpg", "logn.png", "money.jpg", "muppet.jpg", "ryan.png", "stack.png", "source.png", "itcrowd.jpeg", "web.jpg"];
+var memes = ["barber.png", "bst.jpeg", "cage.jpg", "cookie.png", "java.jpg", "logn.png", "money.jpg", "muppet.jpg", "ryan.png", "stack.png", "source.png", "itcrowd.jpeg", "web.jpg"];
 
 function memeIt(memes) {
 	var randMeme = memes[Math.floor(Math.random() * memes.length)];
