@@ -1,6 +1,6 @@
-var memes = ["barber.png", "bst.jpeg", "cage.jpg", "cookie.png", "java.jpg", "jesse.jpg", "logn.png", "money.jpg", "muppet.jpg", "ryan.png", "stack.png", "trump.jpeg", "web.jpg"];
+var memes = ["barber.png", "bst.jpeg", "cage.jpg", "cookie.png", "java.jpg", "jesse.jpg", "logn.png", "money.jpg", "muppet.jpg", "ryan.png", "stack.png", "source.png", "itcrowd.jpeg", "web.jpg"];
 
-function dankIt(memes) {
+function memeIt(memes) {
 	var randMeme = memes[Math.floor(Math.random() * memes.length)];
 	var img = document.createElement("img");
 	var imgShortcut = "./img/";
